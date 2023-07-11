@@ -1,0 +1,145 @@
+body {
+   background-image: url(BG.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+}
+
+input {
+   background-color: transparent;
+   color: white;
+   text-align: right;
+   position: absolute;
+   font-size: 27px;
+   font-family: "Arial";
+}
+
+.BlackText {
+   position: absolute;
+   font-size: 55px;
+   font-family: "Arial Black";
+}
+
+.BoldText {
+   position: absolute;
+   font-size: 27px;
+   font-family: "Arial";
+   font-weight: bold;
+}
+
+.StandardText {
+   position: absolute;
+   font-size: 27px;
+   font-family: "Arial";
+}
+
+#maindiv {
+   background-image: url('InfoWindow.png');
+   width: 557px;
+   height: 770px;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   color: #7d7d7d;
+   font-weight: 100;
+}
+
+#LogoImage {
+   width: 220px;
+   height: 210px;
+   position: absolute;
+   top: 40%;
+   bottom: 50%;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+#SurvivorLabel {
+   top: 3%;
+   left: 6.5%;
+   font-size: 55px;
+}
+
+#RankLabel {
+   top: 10.5%;
+   left: 6.5%;
+   font-size: 37px;
+}
+
+#LevelLabel {
+   left: 3%;
+   bottom: 27.9%;
+}
+
+#XPLabel {
+   left: 3%;
+   bottom: 22.3%;
+}
+
+#NextLevelLabel {
+   left: 3%;
+   bottom: 17.3%;
+}
+
+#SkillPointsLabel {
+   left: 7%;
+   bottom: 2.5%;
+}
+
+#ZeroLabel {
+   right: 5%;
+   bottom: 0%;
+}
+
+#CurrentLevel {
+   right: 3%;
+   bottom: 27.4%;
+}
+
+#CurrentXP {
+   right: 3%;
+   bottom: 22.1%;
+}
+
+#NextLevelInfo {
+   right: 3%;
+   bottom: 17.3%;
+}
+
+#ProgressBarBorder {
+   position: absolute;
+   left: 2%;
+   font-size: 27px;
+   font-family: "Arial";
+   bottom: 12.6%;
+   right: 2.8%;
+   height: 2%;
+   border: #7d7d7d;
+   border-style: solid;
+}
+
+#ProgressBarBackground {
+   position: absolute;
+   left: 3px;
+   right: 3px;
+   bottom: 3px;
+   top: 3px;
+   background-color: transparent;
+}
+
+#ProgressBarFilled {
+   position: absolute;
+   left: 0px;
+   right: 100%;
+   bottom: 0px;
+   top: 0px;
+   background-color: #7d7d7d;
+   width:100%;
+}
