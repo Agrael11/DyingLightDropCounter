@@ -17,6 +17,32 @@ input {
    font-family: "Arial";
 }
 
+#tempDiv {
+   display:flex; 
+   flex-direction:column; 
+   width:100%; 
+   height:100%;
+   background-color: transparent;
+}
+
+.darkBox {
+   box-sizing: border-box;
+   background-color: #000000DD;
+   position: relative;
+}
+
+.bigSplitter {
+   box-sizing: border-box;
+   background-color: #222222CC;
+   height:3%;
+}
+
+.smallSplitter {
+   box-sizing: border-box;
+   background-color: #222222CC;
+   height:1%;
+}
+
 .BlackText {
    position: absolute;
    font-size: 55px;
@@ -37,7 +63,6 @@ input {
 }
 
 #maindiv {
-   background-image: url('InfoWindow.png');
    width: 557px;
    height: 770px;
    position: absolute;
@@ -75,17 +100,17 @@ input {
 
 #LevelLabel {
    left: 3%;
-   bottom: 27.9%;
+   bottom: 28%;
 }
 
 #XPLabel {
    left: 3%;
-   bottom: 22.3%;
+   bottom: 22.5%;
 }
 
 #NextLevelLabel {
    left: 3%;
-   bottom: 17.3%;
+   bottom: 17%;
 }
 
 #SkillPointsLabel {
@@ -100,17 +125,18 @@ input {
 
 #CurrentLevel {
    right: 3%;
-   bottom: 27.4%;
+   bottom: 28%;
 }
 
 #CurrentXP {
    right: 3%;
-   bottom: 22.1%;
+   bottom: 22.5%;
+   border-style
 }
 
 #NextLevelInfo {
    right: 3%;
-   bottom: 17.3%;
+   bottom: 17%;
 }
 
 #ProgressBarBorder {
